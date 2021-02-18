@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>Cut</th>
+      <th>sig_100p5_1</th>
+      <th>sig_100p5_1_eff</th>
+      <th>sig_100p5_10</th>
+      <th>sig_100p5_10_eff</th>
+      <th>sig_100p5_100</th>
+      <th>sig_100p5_100_eff</th>
+      <th>sig_100p5_1000</th>
+      <th>sig_100p5_1000_eff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>No cuts</td>
+      <td>1232560.000</td>
+      <td>100.000000</td>
+      <td>1229420.000</td>
+      <td>100.000000</td>
+      <td>1254190.000</td>
+      <td>100.000000</td>
+      <td>1315700.000</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>MET filter bits pass</td>
+      <td>1232280.000</td>
+      <td>99.977283</td>
+      <td>1228720.000</td>
+      <td>99.943063</td>
+      <td>1254100.000</td>
+      <td>99.992824</td>
+      <td>1315510.000</td>
+      <td>99.985559</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>HEM veto</td>
+      <td>1183570.000</td>
+      <td>96.025346</td>
+      <td>1186160.000</td>
+      <td>96.481268</td>
+      <td>1206660.000</td>
+      <td>96.210303</td>
+      <td>1268110.000</td>
+      <td>96.382914</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Trigger fired (120 GeV METNoMu)</td>
+      <td>583721.000</td>
+      <td>47.358425</td>
+      <td>580270.000</td>
+      <td>47.198679</td>
+      <td>586838.000</td>
+      <td>46.790199</td>
+      <td>627670.000</td>
+      <td>47.706164</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>MET &gt; 200 GeV</td>
+      <td>338210.000</td>
+      <td>27.439638</td>
+      <td>327433.000</td>
+      <td>26.633128</td>
+      <td>330615.000</td>
+      <td>26.360838</td>
+      <td>356089.000</td>
+      <td>27.064604</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>|CaloMET - PFMET|/CaloMET &lt; 1</td>
+      <td>337063.000</td>
+      <td>27.346579</td>
+      <td>324977.000</td>
+      <td>26.433359</td>
+      <td>329208.000</td>
+      <td>26.248655</td>
+      <td>354734.000</td>
+      <td>26.961617</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>nJets &gt; 0 (pT &gt; 30 GeV)</td>
+      <td>332416.000</td>
+      <td>26.969559</td>
+      <td>319337.000</td>
+      <td>25.974606</td>
+      <td>323745.000</td>
+      <td>25.813075</td>
+      <td>348154.000</td>
+      <td>26.461503</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>leading jet |#eta| &lt; 2.4</td>
+      <td>320938.000</td>
+      <td>26.038327</td>
+      <td>312470.000</td>
+      <td>25.416050</td>
+      <td>315336.000</td>
+      <td>25.142602</td>
+      <td>339197.000</td>
+      <td>25.780725</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Leading jet pT &gt; 80 GeV</td>
+      <td>314840.000</td>
+      <td>25.543584</td>
+      <td>306854.000</td>
+      <td>24.959249</td>
+      <td>309477.000</td>
+      <td>24.675448</td>
+      <td>331289.000</td>
+      <td>25.179676</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>|#Delta#Phi(MET, leading jet)| &gt; 1.5</td>
+      <td>313469.000</td>
+      <td>25.432352</td>
+      <td>304644.000</td>
+      <td>24.779490</td>
+      <td>308084.000</td>
+      <td>24.564380</td>
+      <td>328995.000</td>
+      <td>25.005320</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>|#Delta#Phi(MET, all jets)| &gt; 0.5</td>
+      <td>283023.000</td>
+      <td>22.962209</td>
+      <td>279813.000</td>
+      <td>22.759757</td>
+      <td>275637.000</td>
+      <td>21.977292</td>
+      <td>297542.000</td>
+      <td>22.614730</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>nJets &lt; 3 (pT &gt; 30 GeV)</td>
+      <td>198203.000</td>
+      <td>16.080596</td>
+      <td>192601.000</td>
+      <td>15.666005</td>
+      <td>190942.000</td>
+      <td>15.224328</td>
+      <td>208257.000</td>
+      <td>15.828608</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>0 b-tagged jets</td>
+      <td>189789.000</td>
+      <td>15.397952</td>
+      <td>182294.000</td>
+      <td>14.827642</td>
+      <td>183214.000</td>
+      <td>14.608153</td>
+      <td>199428.000</td>
+      <td>15.157559</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>good dSA muons &gt;= 1</td>
+      <td>19969.700</td>
+      <td>1.620181</td>
+      <td>19140.100</td>
+      <td>1.556840</td>
+      <td>20489.900</td>
+      <td>1.633716</td>
+      <td>22690.700</td>
+      <td>1.724610</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>good dSA muons &gt;= 2</td>
+      <td>686.121</td>
+      <td>0.055666</td>
+      <td>819.958</td>
+      <td>0.066695</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1538.980</td>
+      <td>0.116970</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>best_dsa_0 != best_dsa_1</td>
+      <td>686.121</td>
+      <td>0.055666</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1197.100</td>
+      <td>0.090986</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Cosmic veto (min(cosalpha) &gt; -0.94)</td>
+      <td>533.280</td>
+      <td>0.043266</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1032.250</td>
+      <td>0.078456</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>good dSA-dSA vertex &gt;= 1</td>
+      <td>533.280</td>
+      <td>0.043266</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1032.250</td>
+      <td>0.078456</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Best dSA 0 pT resolution &lt; 1</td>
+      <td>533.280</td>
+      <td>0.043266</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1032.250</td>
+      <td>0.078456</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Best dSA 1 pT resolution &lt; 1</td>
+      <td>533.280</td>
+      <td>0.043266</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>1032.250</td>
+      <td>0.078456</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Vertex #chi^{2} &lt; 4</td>
+      <td>352.773</td>
+      <td>0.028621</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>845.770</td>
+      <td>0.064283</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>MT &lt; 200 GeV</td>
+      <td>352.773</td>
+      <td>0.028621</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>701.867</td>
+      <td>0.055962</td>
+      <td>845.770</td>
+      <td>0.064283</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>M_{#mu#mu} &lt; 30 GeV</td>
+      <td>352.773</td>
+      <td>0.028621</td>
+      <td>327.362</td>
+      <td>0.026627</td>
+      <td>518.803</td>
+      <td>0.041366</td>
+      <td>845.770</td>
+      <td>0.064283</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>dR(muons) &lt; 0.9</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>317.757</td>
+      <td>0.024151</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>muons: OSSF</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Selected muon 0 dxy &gt; 0.1 cm</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Selected muon 1 dxy &gt; 0.1 cm</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>0 GM-dSA matched</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>1 GM-dSA matched</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2 GM-dSA matched</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

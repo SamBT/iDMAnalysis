@@ -1,0 +1,62 @@
+{
+    "Mchi-60p3_dMchi-0p6_ctau-1": {
+        "ctau_cm": 0.1,
+        "delta_fraction": 0.01,
+        "dir": [
+            "/uscms/home/sbrightt/nobackup/iDM/MC_samples/muon_lowSplitting/output_Mchi-60p3_dMchi-0p6_ctau-1_year-2018.root"
+        ],
+        "group": "sig_60p3_1",
+        "limit_num_files": -1,
+        "lumi": 59.74,
+        "m1": 10.0,
+        "mode": "SIGNAL",
+        "sum_gen_wgt": 16611.0,
+        "xsec": 50.0,
+        "year": 2018
+    },
+    "Mchi-60p3_dMchi-0p6_ctau-10": {
+        "ctau_cm": 1,
+        "delta_fraction": 0.01,
+        "dir": [
+            "/uscms/home/sbrightt/nobackup/iDM/MC_samples/muon_lowSplitting/output_Mchi-60p3_dMchi-0p6_ctau-10_year-2018.root"
+        ],
+        "group": "sig_60p3_10",
+        "limit_num_files": -1,
+        "lumi": 59.74,
+        "m1": 10.0,
+        "mode": "SIGNAL",
+        "sum_gen_wgt": 16606.0,
+        "xsec": 50.0,
+        "year": 2018
+    },
+    "Mchi-60p3_dMchi-0p6_ctau-100": {
+        "ctau_cm": 10,
+        "delta_fraction": 0.01,
+        "dir": [
+            "/uscms/home/sbrightt/nobackup/iDM/MC_samples/muon_lowSplitting/output_Mchi-60p3_dMchi-0p6_ctau-100_year-2018.root"
+        ],
+        "group": "sig_60p3_100",
+        "limit_num_files": -1,
+        "lumi": 59.74,
+        "m1": 10.0,
+        "mode": "SIGNAL",
+        "sum_gen_wgt": 16613.0,
+        "xsec": 50.0,
+        "year": 2018
+    },
+    "Mchi-60p3_dMchi-0p6_ctau-1000": {
+        "ctau_cm": 100,
+        "delta_fraction": 0.01,
+        "dir": [
+            "/uscms/home/sbrightt/nobackup/iDM/MC_samples/muon_lowSplitting/output_Mchi-60p3_dMchi-0p6_ctau-1000_year-2018.root"
+        ],
+        "group": "sig_60p3_1000",
+        "limit_num_files": -1,
+        "lumi": 59.74,
+        "m1": 10.0,
+        "mode": "SIGNAL",
+        "sum_gen_wgt": 16606.0,
+        "xsec": 50.0,
+        "year": 2018
+    }
+}

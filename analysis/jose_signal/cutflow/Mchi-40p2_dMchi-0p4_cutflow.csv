@@ -1,0 +1,31 @@
+Cut# Description Data Bkg sig_40p2_1 sig_40p2_10 sig_40p2_100 sig_40p2_1000
+cut0 "No cuts" 0 0 1.17029e+06 1.19924e+06 1.17245e+06 1.27094e+06
+cut1 "MET filter bits pass" 0 0 1.17013e+06 1.19882e+06 1.17212e+06 1.27077e+06
+cut2 "HEM veto" 0 0 1.12779e+06 1.15383e+06 1.12821e+06 1.22768e+06
+cut3 "Trigger fired (120 GeV METNoMu)" 0 0 360608 368460 365041 401951
+cut4 "MET > 200 GeV" 0 0 152984 158597 156805 171961
+cut5 "|CaloMET - PFMET|/CaloMET < 1" 0 0 151526 157629 155813 171272
+cut6 "nJets > 0 (pT > 30 GeV)" 0 0 147782 154684 152967 168693
+cut7 "leading jet |#eta| < 2.4" 0 0 142567 149261 146374 162737
+cut8 "Leading jet pT > 80 GeV" 0 0 140218 145894 143771 159407
+cut9 "|#Delta#Phi(MET, leading jet)| > 1.5" 0 0 138781 144721 142871 157550
+cut10 "|#Delta#Phi(MET, all jets)| > 0.5" 0 0 124713 130150 129654 142065
+cut11 "nJets < 3 (pT > 30 GeV)" 0 0 89181.6 92294.8 88266.9 101813
+cut12 "0 b-tagged jets" 0 0 85747.9 88281.4 85334.7 98568.9
+cut13 "good dSA muons >= 1" 0 0 9265.84 9858.05 8657.26 9333.97
+cut14 "good dSA muons >= 2" 0 0 160.71 165.883 594.794 335.185
+cut15 "best_dsa_0 != best_dsa_1" 0 0 160.71 165.883 453.741 335.185
+cut16 "Cosmic veto (min(cosalpha) > -0.94)" 0 0 0 165.883 301.865 335.185
+cut17 "good dSA-dSA vertex >= 1" 0 0 0 165.883 301.865 335.185
+cut18 "Best dSA 0 pT resolution < 1" 0 0 0 165.883 301.865 335.185
+cut19 "Best dSA 1 pT resolution < 1" 0 0 0 165.883 301.865 335.185
+cut20 "Vertex #chi^{2} < 4" 0 0 0 0 142.786 335.185
+cut21 "MT < 200 GeV" 0 0 0 0 142.786 335.185
+cut22 "M_{#mu#mu} < 30 GeV" 0 0 0 0 142.786 170.033
+cut23 "dR(muons) < 0.9" 0 0 0 0 142.786 170.033
+cut24 "muons: OSSF" 0 0 0 0 0 170.033
+cut25 "Selected muon 0 dxy > 0.1 cm" 0 0 0 0 0 170.033
+cut26 "Selected muon 1 dxy > 0.1 cm" 0 0 0 0 0 170.033
+cut27 "0 GM-dSA matched" 0 0 0 0 0 170.033
+cut28 "1 GM-dSA matched" 0 0 0 0 0 0
+cut29 "2 GM-dSA matched" 0 0 0 0 0 0

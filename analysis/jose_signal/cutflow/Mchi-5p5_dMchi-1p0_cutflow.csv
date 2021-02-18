@@ -1,0 +1,31 @@
+Cut# Description Data Bkg sig_5p5_1 sig_5p5_10 sig_5p5_100 sig_5p5_1000
+cut0 "No cuts" 0 0 1.77122e+06 1.76569e+06 1.73203e+06 1.44445e+06
+cut1 "MET filter bits pass" 0 0 1.77122e+06 1.76569e+06 1.73203e+06 1.44445e+06
+cut2 "HEM veto" 0 0 1.71487e+06 1.70141e+06 1.67609e+06 1.39296e+06
+cut3 "Trigger fired (120 GeV METNoMu)" 0 0 429213 423669 411797 320367
+cut4 "MET > 200 GeV" 0 0 119075 132316 133009 110240
+cut5 "|CaloMET - PFMET|/CaloMET < 1" 0 0 118557 131851 132419 109200
+cut6 "nJets > 0 (pT > 30 GeV)" 0 0 117058 130420 129783 106660
+cut7 "leading jet |#eta| < 2.4" 0 0 114117 124679 126590 101492
+cut8 "Leading jet pT > 80 GeV" 0 0 112188 120617 124096 100397
+cut9 "|#Delta#Phi(MET, leading jet)| > 1.5" 0 0 111683 120107 122055 99787.7
+cut10 "|#Delta#Phi(MET, all jets)| > 0.5" 0 0 98793 107566 102048 87379.7
+cut11 "nJets < 3 (pT > 30 GeV)" 0 0 65952.8 73847.6 75147.5 59146.4
+cut12 "0 b-tagged jets" 0 0 63959 69671.3 71020.1 57138.1
+cut13 "good dSA muons >= 1" 0 0 48242 45741.8 45285.7 13350.5
+cut14 "good dSA muons >= 2" 0 0 19174.7 18343.2 13776.6 1501.03
+cut15 "best_dsa_0 != best_dsa_1" 0 0 12252.9 9447.14 10778 1001.17
+cut16 "Cosmic veto (min(cosalpha) > -0.94)" 0 0 11787.3 7527.24 10247.6 466.533
+cut17 "good dSA-dSA vertex >= 1" 0 0 11787.3 7527.24 10247.6 466.533
+cut18 "Best dSA 0 pT resolution < 1" 0 0 11787.3 7527.24 10247.6 466.533
+cut19 "Best dSA 1 pT resolution < 1" 0 0 11787.3 7527.24 10247.6 466.533
+cut20 "Vertex #chi^{2} < 4" 0 0 10363 7032.26 8835.01 466.533
+cut21 "MT < 200 GeV" 0 0 10363 7032.26 8835.01 466.533
+cut22 "M_{#mu#mu} < 30 GeV" 0 0 10363 6498.91 8323.11 466.533
+cut23 "dR(muons) < 0.9" 0 0 10363 6498.91 7308.3 466.533
+cut24 "muons: OSSF" 0 0 10363 6498.91 6285.88 466.533
+cut25 "Selected muon 0 dxy > 0.1 cm" 0 0 509.248 4576.54 6285.88 466.533
+cut26 "Selected muon 1 dxy > 0.1 cm" 0 0 509.248 3545.94 5372.82 466.533
+cut27 "0 GM-dSA matched" 0 0 0 540.121 4875.67 466.533
+cut28 "1 GM-dSA matched" 0 0 509.248 1506.72 497.149 0
+cut29 "2 GM-dSA matched" 0 0 0 1499.11 0 0
