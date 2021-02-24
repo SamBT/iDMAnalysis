@@ -4,3 +4,5 @@ plots
 bin
 lib
 build
+jose_signal/python-analysis/*.html
+jose_signal/python-analysis/*.txt
