@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mMainAnalysis.C": "cpp",
+        "RDFAnalysis.C": "cpp"
+    }
+}

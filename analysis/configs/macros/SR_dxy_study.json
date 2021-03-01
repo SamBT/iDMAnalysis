@@ -1,0 +1,89 @@
+[
+    {
+        "name": "mMainAnalysis",
+        "config": {
+            "plots": [
+                {
+                    "quantity": "reco_sel_mu_dxy0",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy0_zoom",
+                    "title": "Leading muon dxy [cm]",
+                    "nbinsX": 50,
+                    "lowX": 0,
+                    "highX": 0.5 
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy1",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy1_zoom",
+                    "title": "Subleading muon dxy [cm]",
+                    "nbinsX": 50,
+                    "lowX": 0,
+                    "highX": 0.5
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy0",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy0",
+                    "title": "Leading muon dxy [cm]",
+                    "nbinsX": 100,
+                    "lowX": 0,
+                    "highX": 50
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy1",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy1",
+                    "title": "Subleading muon dxy [cm]",
+                    "nbinsX": 50,
+                    "lowX": 0,
+                    "highX": 50
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy0",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy0_medzoom",
+                    "title": "Leading muon dxy [cm]",
+                    "nbinsX": 500,
+                    "lowX": 0,
+                    "highX": 5 
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy1",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy1_medzoom",
+                    "title": "Subleading muon dxy [cm]",
+                    "nbinsX": 500,
+                    "lowX": 0,
+                    "highX": 5
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy_sign0",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy_sign0",
+                    "title": "Leading muon dxy significance",
+                    "nbinsX": 1000,
+                    "lowX": 0,
+                    "highX": 10
+                },
+                {
+                    "quantity": "reco_sel_mu_dxy_sign1",
+                    "groups_to_exclude": [],
+                    "type": "float1D",
+                    "name": "reco_sel_mu_dxy_sign1",
+                    "title": "Subleading muon dxy significance",
+                    "nbinsX": 1000,
+                    "lowX": 0,
+                    "highX": 10
+                }
+            ]
+        }
+    }
+]

@@ -6,3 +6,8 @@ lib
 build
 jose_signal/python-analysis/*.html
 jose_signal/python-analysis/*.txt
+condor/*.out
+condor/*.log
+condor/*.err
+condor/*.tar.gz
+condor/core.*
