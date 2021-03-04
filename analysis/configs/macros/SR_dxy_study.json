@@ -71,7 +71,7 @@
                     "title": "Leading muon dxy significance",
                     "nbinsX": 1000,
                     "lowX": 0,
-                    "highX": 10
+                    "highX": 20
                 },
                 {
                     "quantity": "reco_sel_mu_dxy_sign1",
@@ -79,9 +79,93 @@
                     "type": "float1D",
                     "name": "reco_sel_mu_dxy_sign1",
                     "title": "Subleading muon dxy significance",
-                    "nbinsX": 1000,
+                    "nbinsX": 200,
                     "lowX": 0,
-                    "highX": 10
+                    "highX": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy0_vs_reco_sel_my_dxy_sign0",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Leading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy0",
+                    "nbinsX": 100,
+                    "lowX": 0,
+                    "highX": 50,
+                    "quantity2": "reco_sel_mu_dxy_sign0",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy1_vs_reco_sel_my_dxy_sign1",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Subleading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy1",
+                    "nbinsX": 100,
+                    "lowX": 0,
+                    "highX": 50,
+                    "quantity2": "reco_sel_mu_dxy_sign1",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy0_vs_reco_sel_my_dxy_sign0_medzoom",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Leading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy0",
+                    "nbinsX": 500,
+                    "lowX": 0,
+                    "highX": 5,
+                    "quantity2": "reco_sel_mu_dxy_sign0",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy1_vs_reco_sel_my_dxy_sign1_medzoom",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Subleading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy1",
+                    "nbinsX": 500,
+                    "lowX": 0,
+                    "highX": 5,
+                    "quantity2": "reco_sel_mu_dxy_sign1",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy0_vs_reco_sel_my_dxy_sign0_zoom",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Leading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy0",
+                    "nbinsX": 50,
+                    "lowX": 0,
+                    "highX": 0.5,
+                    "quantity2": "reco_sel_mu_dxy_sign0",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
+                },
+                {
+                    "name" : "reco_sel_mu_dxy1_vs_reco_sel_my_dxy_sign1_zoom",
+                    "groups_to_exclude": [],
+                    "type": "float2D",
+                    "title": "Subleading muon dxy vs significance",
+                    "quantity": "reco_sel_mu_dxy1",
+                    "nbinsX": 50,
+                    "lowX": 0,
+                    "highX": 0.5,
+                    "quantity2": "reco_sel_mu_dxy_sign1",
+                    "nbinsY": 200,
+                    "lowY": 0,
+                    "highY": 20
                 }
             ]
         }
